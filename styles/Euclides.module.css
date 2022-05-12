@@ -1,17 +1,37 @@
 .content {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  width: 100%;
+}
+
+.calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
 }
 
 .title {
-    align-self: center;
-    font-size: 2rem;
-    font-weight: 300;
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 .inputs {
   display: flex;
   flex-direction: column;
+  margin: 30px;
 }
 
 .input {
